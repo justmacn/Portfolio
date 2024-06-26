@@ -3,11 +3,22 @@
     --gold: #ffb547;
 }
 
-* {
-
-}
-
 body {
     background-color: rgb(33, 33, 33);
     color: azure;
+}
+
+header {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 33rem;
+    padding: 0;
+    margin-top: 2rem;
 }
