@@ -52,6 +52,19 @@ h1 {
     text-decoration: none;
 }
 
+.nav-card a:link {
+    color: var(--azure);
+}
+
+.nav-card a:visited {
+    color:  var(--azure);
+}
+
+.nav-card a:hover {
+    color: var(--cream);
+    font-weight: 500;
+}
+
 .splash-card {
     display: flex;
     flex-direction: row;
