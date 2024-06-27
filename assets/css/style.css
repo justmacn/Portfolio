@@ -3,21 +3,14 @@
     --azure: #f0ffff;
     --gold: #ffb547;
     --charcoal: #1a1919;
-}
+} 
 
 body {
+    font-family: "Montserrat";
     background-color: var(--azure);
     color: rgb(29, 29, 29);
-    }
-
-    @font-face {
-        font-family: 'montserrat';
-        src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-    }
-
-    @font-face {
-        font-family: 'montserrat italic';
-        src: url(./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 100;
     }
 
 header {
@@ -32,16 +25,20 @@ header img {
     border-style: none;
     position: absolute;
     scale: 26%;
-    top: -7rem;
+    top: -7.4rem;
     left: -8rem;
 }
 
 h1 {
-    font-size: 2em;
-    padding-left: 14rem;
+    margin: 9px 0 -9px 0;
+    font-family: "basictitlefont";
+    font-size: 3.5em;
+    padding-left: 11rem;
+    font-synthesis: none;
 }
 
 .nav-card {
+    font-family: "Montserrat";
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -65,4 +62,3 @@ h1 {
 h3 {
     padding: 2rem 0 0 0;
 }
-
