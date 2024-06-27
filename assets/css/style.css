@@ -1,15 +1,18 @@
 :root {
     --cream: #fafadd;
+    --azure: #f0ffff;
     --gold: #ffb547;
+    --charcoal: #1a1919;
 }
 
 body {
-    background-color: rgb(33, 33, 33);
-    color: azure;
+    background-color: var(--azure);
+    color: rgb(29, 29, 29);
 }
 
 header {
-    background-color: rgb(29, 29, 29);
+    background-color: var(--charcoal);
+    color: var(--azure);
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 0;
@@ -18,8 +21,8 @@ header {
 header img {
     border-style: none;
     position: absolute;
-    scale: 42%;
-    top: -16rem;
+    scale: 26%;
+    top: -7rem;
     left: -8rem;
 }
 
@@ -38,6 +41,10 @@ h1 {
     list-style-type: none;
 }
 
+.nav-card a {
+    text-decoration: none;
+}
+
 .splash-card {
     display: flex;
     flex-direction: row;
@@ -48,3 +55,4 @@ h1 {
 h3 {
     padding: 2rem 0 0 0;
 }
+
