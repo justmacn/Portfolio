@@ -3,14 +3,15 @@
     --azure: #f0ffff;
     --gold: #ffb547;
     --charcoal: #1a1919;
+    --spaceGrey: #202020;
     --bodyFont: "Montserrat", san-serif; 
     --titleFont: "basictitlefont", san-serif;
 } 
 
 body {
     font-family: var(--bodyFont);
-    background-color: var(--azure);
-    color: rgb(29, 29, 29);
+    background-color: var(--spaceGrey);
+    color: var(--azure);
     font-style: normal;
     font-weight: 100;
     }
@@ -39,6 +40,10 @@ h1 {
     font-synthesis: none;
 }
 
+h1 span {
+    padding-left: 1rem;
+}
+
 .nav-card {
     font-family: "Montserrat";
     display: flex;
@@ -64,7 +69,7 @@ h1 {
 }
 
 .nav-card a:hover {
-    color: var(--cream);
+    color: var(--gold);
     font-weight: 500;
 }
 
@@ -72,20 +77,40 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 2rem;
+    margin: 1.5rem 3.57rem;
 }
 
 .splash-card img {
     max-height: 10rem;
 }
 
+h2 {
+    font-family: "basictitlefont";
+    font-weight: 300;
+    color: var(--gold);
+}
+
 h3 {
-    padding: 7.6rem 8.5rem 0 0;
+    padding: 7.6rem 9rem 0 0;
     align-content: flex-end;
     margin-bottom: 3px;
-    font-weight: 600;
+    font-weight: 450;
     font-style: italic;
     color: var(--charcoal);
     font-size: .93rem;
     position: absolute;
+    color: var(--gold);
+}
+
+h3 span {
+    padding: 0 9px;
+    font-style: normal;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 30rem;
 }
