@@ -3,10 +3,12 @@
     --azure: #f0ffff;
     --gold: #ffb547;
     --charcoal: #1a1919;
+    --bodyFont: "Montserrat", san-serif; 
+    --titleFont: "basictitlefont", san-serif;
 } 
 
 body {
-    font-family: "Montserrat";
+    font-family: var(--bodyFont);
     background-color: var(--azure);
     color: rgb(29, 29, 29);
     font-style: normal;
@@ -31,7 +33,7 @@ header img {
 
 h1 {
     margin: 1px 0 -9px 0;
-    font-family: "basictitlefont";
+    font-family: var(--titleFont);
     font-size: 2.75em;
     padding-left: 9rem;
     font-synthesis: none;
@@ -73,6 +75,17 @@ h1 {
     margin: 2rem;
 }
 
+.splash-card img {
+    max-height: 10rem;
+}
+
 h3 {
-    padding: 2rem 0 0 0;
+    padding: 7.6rem 8.5rem 0 0;
+    align-content: flex-end;
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--charcoal);
+    font-size: .93rem;
+    position: absolute;
 }
