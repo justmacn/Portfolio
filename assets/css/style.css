@@ -8,6 +8,10 @@
     --titleFont: "basictitlefont", san-serif;
 } 
 
+html {
+    font-size: 1rem;
+}
+
 body {
     font-family: var(--bodyFont);
     background-color: var(--spaceGrey);
@@ -35,7 +39,7 @@ header img {
 h1 {
     margin: 1px 0 -9px 0;
     font-family: var(--titleFont);
-    font-size: 2.75em;
+    font-size: 2.75rem;
     padding-left: 9rem;
     font-synthesis: none;
 }
@@ -88,6 +92,8 @@ h2 {
     font-family: "basictitlefont";
     font-weight: 300;
     color: var(--gold);
+    margin: 16px 5% 16px 0;
+    font-size: 2.1rem;
 }
 
 h3 {
@@ -122,6 +128,10 @@ h3 span {
     flex-wrap: wrap;
 }
 
+#About h2{
+    max-height: 4rem;
+}
+
 #About p {
     max-width: 45rem;
     padding: 0 12rem 0 4rem;
@@ -149,4 +159,8 @@ h3 span {
     justify-content: space-evenly;
     align-items: center;
     align-content: space-around;
+}
+
+#work1 {
+    flex-grow: 2;
 }
