@@ -12,6 +12,20 @@ header {
     background-color: rgb(29, 29, 29);
     display: flex;
     justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+header img {
+    border-style: none;
+    position: absolute;
+    scale: 42%;
+    top: -16rem;
+    left: -8rem;
+}
+
+h1 {
+    font-size: 2em;
+    padding-left: 14rem;
 }
 
 .nav-card {
