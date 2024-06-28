@@ -45,7 +45,7 @@ h1 {
 }
 
 h1 span {
-    padding-left: 1rem;
+    padding-left: 0.75rem;
 }
 
 .nav-card {
@@ -144,11 +144,18 @@ h3 span {
     flex-wrap: wrap;
 }
 
+#Work h2 {
+    margin-left: 121px;
+    margin-right: 4rem;
+}
+
 .work-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    min-height: 12rem;
+    padding-left: 90px
 }
 
 .work-card li {
@@ -168,7 +175,6 @@ h3 span {
     background-size: cover;
     background-color: var(--gold);
     border-radius: 0.13rem;
-    flex-grow: 4;
 
 }
 
@@ -179,7 +185,6 @@ h3 span {
     background-size: cover;
     background-color: var(--gold);
     border-radius: 0.13rem;
-    flex-grow: 2;
 
 }
 
@@ -190,7 +195,6 @@ h3 span {
     background-size: cover;
     background-color: var(--gold);
     border-radius: 0.13rem;
-    flex-grow: 2;
 
 }
 
@@ -201,7 +205,6 @@ h3 span {
     background-size: cover;
     background-color: var(--gold);
     border-radius: 0.13rem;
-    flex-grow: 2;
 
 }
 #imgContainer5 {
@@ -211,6 +214,83 @@ h3 span {
     background-size: cover;
     background-color: var(--gold);
     border-radius: 0.13rem;
-    flex-grow: 2;
 
+}
+
+.work-card a {
+    text-decoration: none;
+    
+}
+
+.work-card a:link {
+    color: var(--gold);
+    font-weight: 500;
+}
+
+.work-card a:visited {
+    color: var(--gold);
+    font-weight: 500;
+}
+
+.work-card a:hover {
+    color: var(--azure);
+    font-weight: 700;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 12rem;
+    padding-left: 90px;
+    margin-right: 38rem;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Contact h2 {
+    margin-left: 121px;
+    margin-right: 4rem;
+}
+
+.contact-card li {
+    display: flex;
+    max-width: 45rem;
+    padding: 0 2.3rem 0 1rem;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+
+.contact-card a {
+    text-decoration: none;
+}
+
+.contact-card a:link {
+    color: var(--azure);
+}
+
+.contact-card a:visited {
+    color:  var(--azure);
+}
+
+.contact-card a:hover {
+    color: var(--gold);
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    font-size: .75rem;
+}
+
+@media  screen and  {
+    
 }
