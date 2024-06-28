@@ -291,6 +291,6 @@ footer {
     font-size: .75rem;
 }
 
-@media  screen and  {
-    
+@media  screen and (min-width) {
+   
 }
